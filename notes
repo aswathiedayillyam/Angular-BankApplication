@@ -1,0 +1,44 @@
+Angular Featuers
+
+(Template Rivent Forms)
+1.Component
+
+2.Module
+
+3.Data Binding
+  1. One Way Binding
+     1.1 Component to view
+         1.1.1 String Interpolation/Interpolation {{template expression}}
+         1.1.2 property Binding [binding-target]="binding.source"
+
+     1.2 View to Component
+         1.2.1 Event Binding (event)="source-function call"
+         1.2.2 Event Binding using argument as $event (event)="source-function ($event)"
+         1.2.3 Event Binding using template referencing #variableName
+         
+  2. Two way Binding
+    2.1 ngmodel-part of form module [(ngModel)] = "binding.source"
+
+4.Dependency Injection
+
+5. Routing
+
+6. Services
+
+(Model driven Forms)
+
+7. Reactive Forms
+   1. Form group
+
+8. Angular Directives
+   1. Component Directives
+   2. Structural Directives
+      2.1 *ngif
+      2.2 *ngFor
+      2.3 *ngSwitch
+
+  3.Attribute Directives
+
+
+
+
